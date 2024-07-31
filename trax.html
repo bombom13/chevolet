@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trax_crossover</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/trax.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dd01a76e4c.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/trax.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="header_i">
+            <h1>
+                <a href="./index.html">
+                    <img src="./image/Logo.png" alt="logo">
+                    <span class="t_hidden">쉐보레</span>
+                </a>
+            </h1>
+
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">모델</a>
+                        <ul class="submenu">
+                            <li><a href="./trax.html">트랙스 크로스오버</a></li>
+                            <li><a href="#">트레일블레이저</a></li>
+                            <li><a href="#">크래버스</a></li>
+                            <li><a href="#">타호</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">구매</a>
+                        <ul class="submenu">
+                            <li><a href="#">전 차종 가격</a></li>
+                            <li><a href="#">전시장 안내</a></li>
+                            <li><a href="#">액세서리 & 부품</a></li>
+                            <li><a href="#">온라인샵</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">서비스</a>
+                        <ul class="submenu">
+                            <li><a href="#">정비예약</a></li>
+                            <li><a href="#">고객 지원</a></li>
+                            <li><a href="#">리콜 안내</a></li>
+                            <li><a href="#">차량 관리 서비스</a></li>
+                            <li><a href="#">컴플리트 케어</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">온스타 서비스</a>
+                        <ul class="submenu">
+                            <li><a href="./onstar.html">소개</a></li>
+                            <li><a href="#">시작하기</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">쉐보레 NOW</a>
+                        <ul class="submenu">
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">EV Life</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">쉐보레</a>
+                        <ul class="submenu">
+                            <li><a href="#">쉐보레 스토리</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 햄버거바 메뉴 -->
+            <div class="ham">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="ham_menu">
+                <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                <div id="nav">
+                    <ul class="m_menu">
+                        <li><a href="#">모델</a>
+                            <ul class="sub">
+                                <li><a href="./trax.html">트랙스 크로스오버</a></li>
+                                <li><a href="#">트레일블레이저</a></li>
+                                <li><a href="#">크래버스</a></li>
+                                <li><a href="#">타호</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="m_menu">
+                        <li><a href="#">구매</a>
+                            <ul class="sub">
+                                <li><a href="#">전 차종 가격</a></li>
+                                <li><a href="#">전시장 안내</a></li>
+                                <li><a href="#">액세서리 & 부품</a></li>
+                                <li><a href="#">온라인샵</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="m_menu">
+                        <li><a href="#">서비스</a>
+                            <ul class="sub">
+                                <li><a href="#">정비예약</a></li>
+                                <li><a href="#">고객 지원</a></li>
+                                <li><a href="#">리콜 안내</a></li>
+                                <li><a href="#">차량 관리 서비스</a></li>
+                                <li><a href="#">컴플리트 케어</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="m_menu">
+                        <li><a href="#">온스타 서비스</a>
+                            <ul class="sub">
+                                <li><a href="./onstar.html">소개</a></li>
+                                <li><a href="#">시작하기</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="m_menu">
+                        <li><a href="#">쉐보레 NOW</a>
+                            <ul class="sub">
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">EV Life</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="m_menu">
+                        <li><a href="#">쉐보레</a>
+                            <ul class="sub">
+                                <li><a href="#">쉐보레 스토리</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- //햄버거바 메뉴 -->
+
+            <div class="icon">
+                <div class="serch">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="log">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <!-- main -->
+    <main>
+        <div class="mbox">
+            <picture>
+                <source srcset="./image/slide01_m.jpg" media="(max-width:575px)">
+                <source srcset="./image/slide01.jpg" media="(max-width:1920px)">
+                <img src="/" alt="/">
+            </picture>
+            <div class="text">
+                <p>￦ 21,880,000원 부터</p>
+                <p>지금 바로 만나보세요.</p>
+            </div>
+        </div>
+    </main>
+    <!-- //main -->
+
+
+    <!-- section01 -->
+    <section class="section01">
+        <div class="container">
+            <h2 data-aos="flip-left">LIFE IN TRAX. TRAX IN LIFE</h2>
+            <figure>
+                <img src="./image/car1.png" alt="car1">
+            </figure>
+
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="box">
+                        <h3>가격</h3>
+                        <p>2,188 만원~</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="box">
+                        <h3>복합연비</h3>
+                        <p>~12.7km/L</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="box">
+                        <h3>배기량</h3>
+                        <p>1,199cc</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="box">
+                        <h3>트림</h3>
+                        <p>4가지</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //section01 -->
+
+
+    <!-- section02 -->
+    <section class="section02">
+        <div class="container">
+            <h2 data-aos="flip-left">Explore Trax Crossover color options</h2>
+            <ul>
+                <li><a href="#">RS</a></li>
+                <li><a href="#">ACTIVE</a></li>
+                <li><a href="#">Redline</a></li>
+                <li><a href="#">LS</a></li>
+            </ul>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="cars">
+                        <figure class="car c1">
+                            <img src="./image/scar1.png" alt="scar1">
+                        </figure>
+                        <figure class="car c2">
+                            <img src="./image/scar2.png" alt="scar2">
+                        </figure>
+                        <figure class="car c3">
+                            <img src="./image/scar3.png" alt="scar3">
+                        </figure>
+                        <figure class="car c4">
+                            <img src="./image/scar4.png" alt="scar4">
+                        </figure>
+                        <figure class="car c5">
+                            <img src="./image/scar5.png" alt="scar5">
+                        </figure>
+                        <figure class="cb">
+                            <img src="./image/Logo.png" alt="cb">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <p>EXTERIOR</p>
+                    <div class="color">
+                        <div class="t1">
+                            <figure>
+                                <img src="./image/c1.jpg" alt="c1">
+                            </figure>
+                            <p>퓨어 화이트</p>
+                        </div>
+                        <div class="t2">
+                            <figure>
+                                <img src="./image/c2.jpg" alt="c2">
+                            </figure>
+                            <p>모던 블랙</p>
+                        </div>
+                        <div class="t3">
+                            <figure>
+                                <img src="./image/c3.jpg" alt="c4">
+                            </figure>
+                            <p>스털링 그레이</p>
+                        </div>
+                        <div class="t4">
+                            <figure>
+                                <img src="./image/c4.jpg" alt="c4">
+                            </figure>
+                            <p>밀라노 레드</p>
+                        </div>
+                        <div class="t5">
+                            <figure>
+                                <img src="./image/c5.jpg" alt="c5">
+                            </figure>
+                            <p>마리나 블루</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //section02 -->
+
+
+    <!-- section03 -->
+    <section class="section03">
+        <div class="container">
+            <h2 data-aos="flip-left">PERFORMANCE</h2>
+            <div class="row">
+                <div class="col-12">
+                    <figure>
+                        <img src="./image/PER1.png" alt="PER1">
+                    </figure>
+                    <p>E-Turbo Prime 엔진은 배기량은 줄이고 성능은 향상시킨 Rightsizing 엔진으로 E-테크놀로지를 적용하여, 최고 출력 139 PS, 최고 연비 12.7
+                        km/ℓ를
+                        제공합니다.</p>
+                </div>
+
+                <div class="col-6">
+                    <figure>
+                        <img src="./image/PER2.png" alt="PER2">
+                    </figure>
+                    <p>E-Turbo Prime 1.2 엔진 (제 3종 저공해차)</p>
+                </div>
+
+                <div class="col-6">
+                    <figure>
+                        <img src="./image/PER3.png" alt="PER3">
+                    </figure>
+                    <p>액티브 노이즈 캔슬레이션 (ANC)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //section03 -->
+
+
+    <!-- section04 -->
+    <section class="section04">
+        <div class="container">
+            <h2 data-aos="flip-left">COMFORT WITH CONVENIENCE</h2>
+
+            <div class="row">
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b1.jpg" alt="b1">
+                    </figure>
+                    <p>파워 리프트 게이트</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b2.jpg" alt="b2">
+                    </figure>
+                    <p>오토홀드(AUTO HOLD)</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b3.jpg" alt="b3">
+                    </figure>
+                    <p>캡리스 퓨얼 시스템</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b4.jpg" alt="b4">
+                    </figure>
+                    <p>운전석 8 way 전동시트 & 파워 요추 받침</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b5.jpg" alt="b5">
+                    </figure>
+                    <p>열선 스티어링 휠</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b6.jpg" alt="b6">
+                    </figure>
+                    <p>앞좌석 3단 열선 시트</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b7.jpg" alt="b7">
+                    </figure>
+                    <p>앞좌석 3단 통풍 시트</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b8.jpg" alt="b8">
+                    </figure>
+                    <p>풀 오토 에어컨</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b9.jpg" alt="b9">
+                    </figure>
+                    <p>뒷좌석 에어벤트</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b10.jpg" alt="b10">
+                    </figure>
+                    <p>뒷좌석 6:4 폴딩시트</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b11.jpg" alt="b11">
+                    </figure>
+                    <p>ECM 룸미러 & 톨게이트 자동 결제 시스템</p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <figure>
+                        <img src="./image/b12.jpg" alt="b12">
+                    </figure>
+                    <p>차량 내 6방향 스피커</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section04 -->
+
+
+    <!-- section05 -->
+    <section class="section05">
+        <div class="container">
+            <h2 data-aos="flip-left">Explore Trax Crossover options</h2>
+
+            <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="item">
+                        <h3>RS</h3>
+                        <span>￦ 2,880만원~</span>
+                        <h4>기본품목</h4>
+                        <p>-글로스 블랙 그릴 & 블랙 아이스 크롬 그릴바</p>
+                        <p>-블랙 루프</p>
+                        <p>-19인치 카본 플래시 머신드 알로이 휠 및 캡</p>
+                        <p>-젯 블랙 & 레드 포인트 RS 인조가죽</p>
+                        <p>-블랙 트랙스 레터링, RS 뱃지</p>
+                        <p>-ECM 룸미러, 톨 게이트 자동 결제 시스템</p>
+                        <p>-D컷 스티어링 휠</p>
+                        <p>-블랙 헤드라이너, 프론트 도어 실 플레이트</p>
+                        <p>-스마트 하이빔</p>
+                        <p>-앞좌석 3단 통풍시트</p>
+                        <p>-운전석 8 way 전동시트 & 전동 요추 받침 </p>
+                        <p>-8인치 클러스터 & 11인치 컬러 터치 스크린</p>
+                        <p>-무선 폰 프로적션 & 무선충전 시스템</p>
+                        <p>-온스타</p>
+                        <div class="box">
+                            <button class="btn" type="button">견적내기</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="item">
+                        <h3>ACTIV</h3>
+                        <span>￦ 2,821만원~</span>
+                        <h4>기본품목</h4>
+                        <p>-티타늄 크롬 인서트 & 글로스 블랙 그릴</p>
+                        <p>-18인치 글로스 블랙 알로이 휠 및 캡</p>
+                        <p>-젯 블랙 & 옐로우 포인트 인조가죽</p>
+                        <p>-블랙 트랙스 & 액티브 레터링</p>
+                        <p>-ECM 룸미러, 톨 게이트 자동 결제 시스템</p>
+                        <p>-스마트 하이빔</p>
+                        <p>-앞좌석 3단 통풍시트</p>
+                        <p>-운전석 8 way 전동시트 & 전동 요추 받침 </p>
+                        <p>-8인치 클러스터 & 11인치 컬러 터치 스크린</p>
+                        <p>-무선 폰 프로적션 & 무선충전 시스템</p>
+                        <p>-온스타</p>
+                        <div class="box">
+                            <button class="btn" type="button">견적내기</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="item">
+                        <h3>Redline</h3>
+                        <span>￦ 2,595만원~</span>
+                        <h4>기본품목</h4>
+                        <p>-17인치 글로스 블랙 레드라인 알로이 휠</p>
+                        <p>-레드라인 스트라이프 그릴, 아웃사이드 미러</p>
+                        <p>-루프랙</p>
+                        <p>-레드 아웃라인 블랙 트랙스 레터링</p>
+                        <p>-쉐보레 블랙 보타이(앞/뒤)</p>
+                        <p>-쿨 그레이 인조가죽 시트</p>
+                        <p>-후방주차 보조시스템</p>
+                        <p>-앞좌석 3단 열선시트</p>
+                        <p>-열선 스티어링 휠</p>
+                        <p>-풀오토 에어컨</p>
+                        <p>-뒷자석 에어벤트</p>
+                        <p>-버튼시동 & 스마트키 시스템</p>
+                        <p>-2열 일루미네이팅 듀럴 USB 포트 (충전전용)</p>
+                        <div class="box">
+                            <button class="btn" type="button">견적내기</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="item">
+                        <h3>LS</h3>
+                        <span>￦ 2,188만원~</span>
+                        <h4>기본품목</h4>
+                        <p>-Chevorlet safety standard</p>
+                        <p>-E-Turbo Prime 1.2 가솔린 엔진</p>
+                        <p>-GEN3 6단 자동변속기</p>
+                        <p>-LED 프로젝션 헤드램프</p>
+                        <p>-LED 주간주행등</p>
+                        <p>-LED 테일램프</p>
+                        <p>-오토홀드</p>
+                        <p>-전자식 주차 브레이크(EPB)</p>
+                        <p>-캡리스 퓨얼시스템</p>
+                        <p>-틸트 & 텔레스코픽 스티어링 휠</p>
+                        <p>-8인치 컬러 터치스크린</p>
+                        <p>-쉐보레 로고 플로어매트, 카고 네트</p>
+                        <div class="box">
+                            <button class="btn" type="button">견적내기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //section05 -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer_i">
+            <div class="logo">
+                <figure>
+                    <img src="./image/Logo.png" alt="Logo">
+                </figure>
+                <h3>Together let’s drive</h3>
+            </div>
+
+            <div class="items">
+                <div class="left">
+                    <div class="box01">
+                        <span><a href="#">이용약관</a></span>
+                        <span><a href="#">개인정보처리방침</a></span>
+                        <span><a href="#">사이트맵</a></span>
+                        <span><a href="#">GM Korea</a></span>
+                    </div>
+
+                    <div class="box02">
+                        <p>사업자: 한국지엠주식회사<span>대표: 헥터비자레알</span></p>
+                        <p>add: 인천광역시 부평구 부평대로233</p>
+                        <p>고객상담전화: 080-3000-5000</p>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="icon">
+                        <div class="insta">
+                            <a href="https://www.instagram.com/chevroletkr/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="facebook">
+                            <a href="https://www.facebook.com/chevroletkorea/?locale=ko_KR"><i
+                                    class="fa-brands fa-square-facebook"></i></a>
+                        </div>
+                        <div class="youtube">
+                            <a href="https://www.youtube.com/user/chevroletkorea"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+</body>
+
+</html>
